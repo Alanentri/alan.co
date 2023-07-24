@@ -10,7 +10,7 @@ import Ourstore from './pages/OurStore';
 
 function App() {
   return (
-    <>
+    <div>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout/>}>
@@ -22,7 +22,7 @@ function App() {
     </Routes>
     </BrowserRouter>
     
-    </>
+    </div>
   );
 }
 
